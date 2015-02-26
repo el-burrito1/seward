@@ -1,0 +1,22 @@
+body {
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font-family: 'Rokkitt', serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.rokkitt{
+	font-family: 'Rokkitt', serif;
+}
+
+.navbar-initial{
+	height:90px;
+	background-color:white;
+	border-bottom:none;
+	color:black;
+	opacity:.5;
+}
+
+

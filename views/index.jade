@@ -1,0 +1,77 @@
+extends layout
+
+block content
+    nav(class='navbar navbar-fixed-top navbar-initial' id='navbar' class='navbar-initial')
+        h2(style='text-align:center;' class='rokkitt protect-text') 835 Seward Street
+        h4(style='text-align:center;' class='rokkitt protect-text') Los Angeles | California | 90038
+    div(class='col-md-12' style='margin-top:7%;')
+        iframe(style='margin-left:16%;' src="//player.vimeo.com/video/120612905" width="1100" height="619" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+    div(class='container')
+        div(class='row' style='margin-top:5%;margin-bottom:5%;')
+            div(class='col-md-3')
+                img(src='https://s3-us-west-1.amazonaws.com/835seward/photos/horizontal/lounge.jpg')
+            div(class='col-md-3')
+                img(style='margin-left:50%;' src='https://s3-us-west-1.amazonaws.com/835seward/photos/horizontal/outside.jpg')
+            div(class='col-md-3')
+                img(style='margin-left:96%' src='https://s3-us-west-1.amazonaws.com/835seward/photos/horizontal/office.jpg')
+            div(class='col-md-12')
+    div(class='container' style='margin-bottom:3%;background-color:#F6F5F0;width:100%;')
+        div(class='row' style='margin-top:4%;margin-bottom:4%')
+            div(class='col-md-5 col-md-offset-1 rokkitt')
+                h4 Building Info
+                p Located on the hottest street in Hollywood is this renovated and reinvented creative campus at 835 Seward. This is a unique opportunity to purchase an exceptional Hollywood creative office located amongst architecturally iconic buildings on a high profile, gentrified street, surrounded by world famous creative companies. This property is ideal for an investor looking for appreciation and steady, above-market returns. This outstanding location is steps away from J. H. Snyder’s new Seward office development, as well as other highly sought after office and retail destinations. The building is currently leased by Live Nation Worldwide Inc. (NYSE: LYV) through 2024.
+                h4 Features
+                Ol 
+                    li Hightly creative office building on the most sought after street in Hollywood. 
+                    li Major renovation recently completed in 2015 with open, top-of-the-line finishes, exposed and floating ceiling throughout, concrete floors, glass walls, private patios, and a large open courtyard.
+                    li Parking lot can be used for future development. 
+                    li Building is located amongst campuses of renowned entertainment companies such as Smuggler, Lin Pictures, Monotone Inc, and Pictures in a Row.
+                    li Multiple restaurants located within walking distance including Grub (best tuna melt), Xiomara, Marino Ristorante, and the hottest restaurant in New York City and Las Vegas- Rao’s.
+            div(class='col-md-5 rokkitt')
+                h4 Building Specifications 
+                h5 Building Size: <span>Approximately 9,500 SF</span>
+                h5 Land Size: <span> 16,086 SF</span>
+                h5 Price: <span>Best Offer</span>
+                h5 Tenant: <span>Live Nation Worldwide Inc (NYSE:LYV)</span>
+                h5 Parking: <span>Approximately 30 spaces in total</span>
+                h4 Tenant Info
+                p Live Nation Entertainment (NYSE:LYV) is a live-events company comprised of subsidiaries Live Nation Concerts, Ticketmaster, Live Nation Media &amp; Sponsorship, and Artist Nation. With annual revenues exceeding $5 billion and a range of industry focuses that include event promotion, concert venue ownership, ticket sales and distribution, and artist management, Live Nation Entertainment is strongly positioned in all phases of the live-entertainment supply chain. Live Nation Entertainment owns, leases, operates, has booking rights for and/or has an equity interest in over 115 concert venues around the world. According to their website, a Live Nation event is starting every 20 minutes somewhere in the world. With live music ticket sales expected to reach $8.3 billion in 20181, Live Nation Entertainment is strongly positioned to profit and expand as the leader in the global live-entertainment industry.
+    div(class='container')
+        div(class='row' style='margin-bottom:4%;')
+            div(class='col-md-6')
+                img(src='https://s3-us-west-1.amazonaws.com/835seward/photos/horizontal/6.jpg')
+            div(class='col-md-6')
+                img(src='https://s3-us-west-1.amazonaws.com/835seward/photos/horizontal/12.jpg')
+    div(class='container' style='width:100%;background-color:#F6F5F0')
+        div(class='row' style='margin-top:3%;margin-bottom:3%')
+            div(class='col-md-4 col-md-offset-2')
+                form(role='form' id='contactForm' action='#')
+                    div(class='form-group' style='margin-right:10%')
+                        input(name='name' class='form-control' placeholder='name' style='margin-top:30px; margin-bottom:18px;')
+                        input(name='email' type='email' class='form-control' placeholder='email' style='margin-bottom:18px;')
+                        input(name='phone' type='text' class='form-control' style='margin-bottom:28px;' placeholder='phone number')  
+                        button(id='button' type='submit' class='btn btn-default mobile-button-adjust' style='color:white;background-color:#E6974C;width:100%') Request More Information
+                            i(id='spinner' style='margin-left:9px')
+            div(class='col-md-4')
+                div(id='map-canvas' class='map-canvas map-height' style='width:90%; height:370px;padding-top:2%;margin-left:10%;')
+    div(class='container' style='width:100%;background-color:#E6974C;padding-bottom:4%;padding-top:2%')
+        div(class='row rokkitt' style='color:white;')
+            div(class='col-md-4 col-md-offset-1')
+                h3(style='white-space:pre;') 
+                    | Coldwell Banker Commercial Westmac 
+                    | 1515 S Sepulveda Blvd
+                    | Los Angeles, CA 90025
+                    | 310.478.7700
+            div(class='col-md-3')
+                h3(style='white-space:pre;') 
+                    | Lee Polster 
+                    | Executive Vice President
+                    | 310.966.4346
+            div(class='col-md-3')
+                h3(style='white-space:pre;') 
+                    | Spencer Spiegel 
+                    | Associate
+                    | 310.966.4382
+
+
+    
