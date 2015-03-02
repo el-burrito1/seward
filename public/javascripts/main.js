@@ -20,10 +20,10 @@ $(document).on('ready' , function(){
 	google.maps.event.addDomListener(window, 'load', initialize)
 
 	$(window).scroll(function(){
-		if($(document).scrollTop()>90){
-			$('#navbar').addClass('white-color')
+		if($(document).scrollTop()>0){
+			$('#navbar').addClass('navbar-after')
 		} else {
-			$('#navbar').removeClass('white-color')
+			$('#navbar').removeClass('navbar-after')
 		}
 	})
 

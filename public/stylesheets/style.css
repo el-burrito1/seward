@@ -11,12 +11,22 @@ a {
 	font-family: 'Rokkitt', serif;
 }
 
-.navbar-initial{
-	height:90px;
-	background-color:white;
-	border-bottom:none;
-	color:black;
-	opacity:.5;
+.play{
+	font-family: 'Play', sans-serif;
 }
+
+.navbar-initial{
+	height:95px;
+	background-color:#E6974C;
+	border-bottom:none;
+	/*opacity:.5;*/
+	color:white;
+}
+
+/*.navbar-after{
+	background-color: white;
+	color:#E6974C;
+	opacity:.5;
+}*/
 
 
